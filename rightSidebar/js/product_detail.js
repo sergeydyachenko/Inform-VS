@@ -1,0 +1,26 @@
+$(document).ready(function(){
+	$(".switch-mini").on("click",function(){
+		$(".switch-big").hide();
+		$(".switch-mini").removeClass("active");
+	});
+	$(".switch-mini1").on("click",function(){
+		$(".switch-big1").show();
+		$(".switch-mini1").addClass("active");
+	});
+	$(".switch-mini2").on("click",function(){
+		$(".switch-big2").show();
+		$(".switch-mini2").addClass("active");
+	});
+	$(".switch-mini3").on("click",function(){
+		$(".switch-big3").show();
+		$(".switch-mini3").addClass("active");
+	});
+	$(".switch-mini4").on("click",function(){
+		$(".switch-big4").show();
+		$(".switch-mini4").addClass("active");
+	});
+	$(".switch-mini5").on("click",function(){
+		$(".switch-big5").show();
+		$(".switch-mini5").addClass("active");
+	});
+});
