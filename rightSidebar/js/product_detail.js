@@ -23,4 +23,12 @@ $(document).ready(function(){
 		$(".switch-big5").show();
 		$(".switch-mini5").addClass("active");
 	});
+	$(".order").on("click",function(){
+		$(".popup-detail").show();
+	});
+	(function($) {
+		$(function() {
+			$('select').styler();
+		});
+	})(jQuery);
 });

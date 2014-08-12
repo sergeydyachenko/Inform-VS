@@ -68,6 +68,16 @@ ul {
 /*end reset*/
 /* 	FONTS  */
 @font-face {
+    font-family: 'pt_sansbold';
+    src: url('fonts/pt_sans-web-bold-webfont.eot');
+    src: url('fonts/pt_sans-web-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pt_sans-web-bold-webfont.woff') format('woff'),
+         url('fonts/pt_sans-web-bold-webfont.ttf') format('truetype'),
+         url('fonts/pt_sans-web-bold-webfont.svg#pt_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'pt_sansregular';
     src: url('fonts/pt_sans-web-regular-webfont.eot');
     src: url('fonts/pt_sans-web-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -366,7 +376,7 @@ footer .tel-number a{
 	line-height: 20px;
 	margin-bottom: 27px;
 }
-.popup:before,.popup-send:before,.aside-popup-send:before,.sertificates-js:before {
+.popup:before,.popup-send:before,.aside-popup-send:before,.sertificates-js:before,.popup-detail{
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -385,14 +395,14 @@ footer .tel-number a{
 	z-index: 100;
 	display: none;
 }
-body .popup-send > div,body .aside-popup-send > div,.sertificates-js > div{
+body .popup-send > div,body .aside-popup-send > div,.sertificates-js > div, .popup-detail > div{
 	top: 0;bottom: 0;
 	box-shadow: 0 24px 43px rgba(0, 0, 0, 0.36);
 }
 .popup > div{
 	top: 122px;
 }
-.popup > div,.popup-send > div,.aside-popup-send > div,.sertificates-js > div{
+.popup > div,.popup-send > div,.aside-popup-send > div,.sertificates-js > div, .popup-detail > div{
 	position: fixed;
 	left: 0;right: 0;
 	margin:auto;
@@ -571,7 +581,7 @@ aside .product-block ul li:last-child{
 .help-block form{
 	margin-top: 7px;
 }
-.help-block input:not([type="submit"]),textarea{
+.help-block input:not([type="submit"]),textarea, .help-block select{
 	width: 100%;
 	border: 1px solid #d2d2d2;
 	border-radius: 5px;
@@ -597,6 +607,7 @@ aside .product-block ul li:last-child{
 	padding: 1px 5px;
 	height: 168px;
 	margin-bottom: 0;
+	max-width: 194px;
 }
 
 aside .button-red{
