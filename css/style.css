@@ -109,7 +109,16 @@ p{
          url('fonts/gothapromed-webfont.svg#gotham_promedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'gotham_prolight';
+    src: url('fonts/gothaprolig-webfont.eot');
+    src: url('fonts/gothaprolig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gothaprolig-webfont.woff') format('woff'),
+         url('fonts/gothaprolig-webfont.ttf') format('truetype'),
+         url('fonts/gothaprolig-webfont.svg#gotham_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 /*start clearfix*/
 .clearfix:before,
@@ -389,7 +398,7 @@ footer .tel-number a{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 99;
+	z-index: 999;
 }
 .popup,.popup-send,.aside-popup-send,.sertificates-js{
 	position: fixed;
@@ -418,6 +427,7 @@ body .popup-send > div,body .aside-popup-send > div,.sertificates-js > div, .pop
 	box-sizing:border-box;
 	background: #f2f2f2;
 	border-radius: 5px;
+	z-index: 1000;
 }/* SEND */
 .popup-send > div,.aside-popup-send > div{
 	height: 274px;
@@ -450,7 +460,7 @@ body .popup-send > div,body .aside-popup-send > div,.sertificates-js > div, .pop
 .error{
 	border:2px solid #d81921!important;
 }
-.message-error,.message-error-detail{
+.message-error,.message-error-detail,.message-error-arenda{
 	font-size: 12px;
 	color: #d81921;
 	float: right;
@@ -458,14 +468,14 @@ body .popup-send > div,body .aside-popup-send > div,.sertificates-js > div, .pop
 .button-input{
 	float: left;
 }
-.message-error,.message-error-detail{
+.message-error,.message-error-detail,.message-error-arenda{
 	margin-top: 8px;
 	display: none;
 	margin-right: -5px;
 	letter-spacing: -0.021em;
 	padding-top: 2px;
 }
-.message-error:before, .message-error-detail:before{
+.message-error:before, .message-error-detail:before,.message-error-arenda:before{
 	content: "";
 	display: block;
 	float: left;
@@ -584,7 +594,7 @@ aside .product-block ul li:last-child{
 .help-block form{
 	margin-top: 7px;
 }
-.help-block input:not([type="submit"]),textarea, .help-block select{
+.help-block input:not([type="submit"]),textarea, .help-block select,.individual-solutions input:not([type='submit']),.individual-solutions textarea{
 	width: 100%;
 	border: 1px solid #d2d2d2;
 	border-radius: 5px;
