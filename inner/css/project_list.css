@@ -1,0 +1,54 @@
+.wrap-blocks-project-list{
+	margin-top: 30px;
+}
+.block-project-list{
+	width: 475px;
+	border: 1px solid #d6d6d6;
+	float: left;
+	margin-right: 20px;
+}
+.block-project-list:last-child{
+	margin-right: 0;
+}
+.project-list{
+	background-color: #fff;
+	padding: 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.title-project-list{
+	font-size: 24px;
+}
+.used-project{
+	font-size: 12px;
+	background-color: #f7f7f7;
+	border-top: 1px solid #d6d6d6;
+	padding: 19px 42px 40px 42px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.used-project div:first-child {
+	line-height: 29px;
+	font-size: 13px;
+	color: #595959;
+}
+.used-project div:first-child:before {
+	content: "";
+	display: block;
+	float: left;
+	margin-right: 14px;
+	background: url(../../img/skills.png) no-repeat;
+	width: 22px;
+	height: 22px;
+}
+.link-used-products {
+	margin-left: 36px;
+	letter-spacing: -0.02em;
+}
+.link-used-products div {
+	display: inline-block;
+	margin: 0 5px;
+}
