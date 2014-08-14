@@ -65,6 +65,9 @@ a:hover {
 ul {
 	list-style: none;
 }
+p{
+	color: #595959;
+}
 /*end reset*/
 /* 	FONTS  */
 @font-face {
@@ -447,7 +450,7 @@ body .popup-send > div,body .aside-popup-send > div,.sertificates-js > div, .pop
 .error{
 	border:2px solid #d81921!important;
 }
-.message-error{
+.message-error,.message-error-detail{
 	font-size: 12px;
 	color: #d81921;
 	float: right;
@@ -455,14 +458,14 @@ body .popup-send > div,body .aside-popup-send > div,.sertificates-js > div, .pop
 .button-input{
 	float: left;
 }
-.message-error{
+.message-error,.message-error-detail{
 	margin-top: 8px;
 	display: none;
 	margin-right: -5px;
 	letter-spacing: -0.021em;
 	padding-top: 2px;
 }
-.message-error:before{
+.message-error:before, .message-error-detail:before{
 	content: "";
 	display: block;
 	float: left;

@@ -6,6 +6,8 @@ $(document).ready(function(){
 		$(".popup").hide();
 		$(".popup-send").hide();
 		$(".aside-popup-send").hide();
+		$(".popup-detail").hide();
+		$(".sertificates-js").hide();
 	});
 	$(".popup .button-input").on("click", function(e){
 		// NAME
