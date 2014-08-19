@@ -19,27 +19,27 @@
             <div class="sertificates">
                 <div class="sertificate">
                     <p>Название сертификата</p>
-                    <img src="../img/sertificates/mini-2.jpg" alt="">
+                    <img src="../img/sertificates/mini-2.jpg" data-big="big-2" alt="">
                     <div class="sertificate-magnifier"></div>
                 </div>
                 <div class="sertificate">
                     <p>Название сертификата</p>
-                    <img src="../img/sertificates/mini-3.jpg" alt="">
+                    <img src="../img/sertificates/mini-3.jpg" data-big="big-3" alt="">
                     <div class="sertificate-magnifier"></div>
                 </div>
                 <div class="sertificate">
                     <p>Название сертификата</p>
-                    <img src="../img/sertificates/mini-1.jpg" alt="">
+                    <img src="../img/sertificates/mini-1.jpg" data-big="big-1" alt="">
                     <div class="sertificate-magnifier"></div>
                 </div>
                 <div class="sertificate">
                     <p>Название сертификата</p>
-                    <img src="../img/sertificates/mini-2.jpg" alt="">
+                    <img src="../img/sertificates/mini-2.jpg" data-big="big-2" alt="">
                     <div class="sertificate-magnifier"></div>
                 </div>
                 <div class="sertificate">
                     <p>Название сертификата</p>
-                    <img src="../img/sertificates/mini-3.jpg" alt="">
+                    <img src="../img/sertificates/mini-3.jpg" data-big="big-2" alt="">
                     <div class="sertificate-magnifier"></div>
                 </div>
             </div>
