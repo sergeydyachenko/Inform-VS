@@ -1,3 +1,8 @@
+.navigation .active-list{
+	color: #fff;
+	background-color: #d81921;
+	border: 1px solid #d81921;
+}
 .wrap-news-events{
 	margin-top: 48px;
 }
