@@ -33,22 +33,7 @@
 			</table>
 		</div>
 	</div>
-	<script type="text/javascript">
-		var myMap;
-		ymaps.ready(function () {
-		myMap = new ymaps.Map("map", {
-			center: [55.774363,37.645503],
-			zoom: 16
-		});
-		var myPlacemark = new ymaps.Placemark([55.774363,37.645503], {}, {
-			iconImageHref: '../img/loveC.png',
-			iconImageSize: [33, 29],
-			iconImageOffset: [-20, -38]
-		});
-		myMap.geoObjects.add(myPlacemark);
-		});
-	</script>
-	<div id="map" style="width: 100%; height: 604px;"></div>
+	<img src="../img/map.jpg" id="map">
 </div>
 </body>
 </html>
