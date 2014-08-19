@@ -332,15 +332,19 @@ footer .tel-number a{
 	float: left;
 	margin-top: 3px;
 }
+.copyright a{
+	color: #595959;
+}
 .network{
 	float: right;
 }
-.network div{
+.network a{
 	float: left;
 	width: 26px;
 	height: 25px;
 	margin-left: 4px;
 	cursor: pointer;
+	border:none;
 }
 .fc{
 	background: url(../img/networks.png) no-repeat;
