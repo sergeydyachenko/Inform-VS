@@ -1,3 +1,7 @@
+.button-gray a,.button-red a{
+	color: #fff;
+	text-decoration: none;
+}
 .white-block{
 	background-color: #fff;
 	height: 19px;
