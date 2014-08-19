@@ -195,10 +195,10 @@ body .switch-blocks .active{
 	height: 29px;
 }
 .questions-and-answers p {
-	margin-left: 29px;
 	line-height: 20px;
 	padding: 0 13px;
-	margin-bottom: 57px;
+	margin: 18px 29px 57px 29px;
+	display: none;
 }
 .related-products{
 	width: 110px;
